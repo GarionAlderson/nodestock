@@ -13,7 +13,7 @@ app.set('view engine', 'handlebars');
 //Set handlebar routes
 app.get('/', function (req, res) {
     res.render('home',{
-    	stuff:"This is Stuff..."
+    	stuff:"This is poo Stuff..."
     });
 });
 

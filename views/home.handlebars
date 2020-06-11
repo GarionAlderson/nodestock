@@ -1,2 +1,8 @@
-<h1>This is the handlebars home page</h1>
-<p>{{stuff}}</p>
+<h1>{{stock.companyName}}</h1>
+
+<br/><br/>
+{{#each stock}}
+
+	{{@key}} - {{this}}<br/>
+
+{{/each}}
